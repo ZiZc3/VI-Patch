@@ -18,6 +18,8 @@ VI-Patch is a set of patches for Grand Theft Auto VI, made for [PS Patch System]
 
 ## Patches
 
+- **60 FPS**: removes the 30 fps cap. Needs 120 Hz forced on in PS Patch System settings.
+
 - **No Vignette**: no dark corners when you drive fast or aim.
 
 - **Skip intro logos**: the Rockstar logo movie is skipped, so the game goes straight to loading.
