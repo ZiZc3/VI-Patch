@@ -14,8 +14,6 @@
 
 VI-Patch is a set of patches for Grand Theft Auto VI, made for [PS Patch System](https://github.com/illusionyy/ps-patch-system).
 
-Each patch is a small change to the game's own code, applied when the game starts. Nothing on the disk is changed, and every patch can be turned on or off in PS Patch System.
-
 ---
 
 ## Patches
