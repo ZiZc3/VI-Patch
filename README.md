@@ -45,6 +45,10 @@ You need a PS5 with **[PS Patch System](https://github.com/illusionyy/ps-patch-s
 > [!IMPORTANT]
 > The patches are made for game version **01.002.001** only.
 
+### Without PS Patch System
+
+[`standalone/`](standalone/) has a payload that applies the same patches to the running game. It checks the original bytes first. See [standalone/README.md](standalone/README.md).
+
 ---
 
 ## Credits

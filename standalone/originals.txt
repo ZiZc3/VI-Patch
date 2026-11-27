@@ -1,0 +1,49 @@
+# Original bytes of Grand Theft Auto VI PPSA38500 01.002.001 (eboot.bin) at
+# every address a VI-Patch line writes to. Read from an unpatched game in
+# memory (PS5 Slim, firmware 13.60, 2026-11-27).
+#
+# Format: address  length  bytes (hex) | zero
+# "zero" means the whole range is 00 (unused space the patch fills with code).
+#
+# The loader writes a patch only if every one of its lines still holds these
+# bytes, so it refuses to touch a different game version or memory that
+# another payload has already changed.
+
+# 60 FPS
+0x045ec831    8  c5fa110567ec9b06
+0x04373ef3    8  c5fa1105a575c306
+0x0afab4a0    4  8988083d
+
+# No Vignette
+0x00e724cd    6  0f8530010000
+0x00e722af    6  0f85a3000000
+
+# No depth of field
+0x044252bb    1  02
+
+# Skip intro logos
+0x04877f43    9  cccccccccccccccccc
+0x04877f50   16  e94be8ffffcccccccccccccccccccccc
+
+# Weather fix (1.0)
+0x018e7421    9  488b74d608488d3cbf
+0x018e742c    6  440fb74cfe10
+0x018e7435    4  41895708
+0x018e7439    5  4c8b44fe08
+0x018e7445    4  418b0490
+0x018e744d    3  8d42ff
+0x018e749f    4  418b0c90
+
+# Weather fix (2.0, pull request #4)
+0x09369400   66  zero
+0x018e7406   10  488b15bbfc2a0c498917
+
+# No clothing
+0x09369800  890  zero
+0x0707c1fb    5  e8504e38f9
+
+# Mandy replaces Lucia
+0x09369700  233  zero
+0x0153c28c    5  e80f210000
+0x09369b80 1127  zero
+0x0707c29b    5  e8b04d38f9
