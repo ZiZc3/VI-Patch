@@ -1,34 +1,68 @@
-# GTA VI patches
+<h1 align="center">VI-Patch</h1>
 
-Game patches for **Grand Theft Auto VI** on a jailbroken **PS5**, made for [PS Patch System](https://github.com/illusionyy/ps-patch-system).
+<p align="center">
+  <strong>Patches for Grand Theft Auto VI on a jailbroken PlayStation 5.</strong><br>
+</p>
 
-| | |
-|---|---|
-| Game | Grand Theft Auto VI (`PPSA38500`) |
-| Version | **01.002.001** only |
-| Format | ps-patch-system XML (`PPSA38500.xml`) |
+<p align="center">
+  <code>PPSA38500</code> &nbsp;&middot;&nbsp;
+  <code>v01.002.001</code> &nbsp;&middot;&nbsp;
+  <code>PS Patch System</code>
+</p>
 
-## Patches
+---
 
-| Patch | What it does |
-|---|---|
-| 🖤 **No Vignette** | Removes the dark vignette when you drive fast or aim. Story and mission effects stay. |
-| ⏭️ **Skip intro logos** | Skips the Rockstar intro logo movie at startup. Every other movie plays normally. |
-| 🥽 **First person you can walk in (L2+R3)** | **L2+R3** switches on first person on foot that you can walk and play in. Press **L2+R3** again to go back to third person. |
+## What is VI-Patch?
 
-## How to install
+VI-Patch is a set of patches for Grand Theft Auto VI, made for [PS Patch System](https://github.com/illusionyy/ps-patch-system).
 
-1. Put the patch entries below in `/data/user/patches/xml_prospero/PPSA38500.xml` on your PS5. Add them to the file if you already have one.
-2. Turn the patches on in PS Patch System.
-3. Start the game.
+Each patch is a small change to the game's own code, applied when the game starts. Nothing on the disk is changed, and every patch can be turned on or off in PS Patch System.
 
-## How they work
+---
 
-- **No Vignette:** fast driving and aiming use their own camera exposure profiles (`SPOTMETER_fast` and `SPOTMETER_aiming`), and those add a black vignette. The patch skips those two profiles, so the normal camera exposure is used.
-- **Skip intro logos:** the logo is a Bink movie (4K, 450 frames). When the game opens that one movie, the patch sets its frame count to 1, so it ends at once and the game moves on.
-- **First person:** the game has two first-person modes. L2+R3 normally turns on a view-only mode. The patch makes L2+R3 use the forced first-person mode that the game's scripts use, which lets you move.
+## Features
+
+<details open>
+<summary><strong>&nbsp; Picture</strong></summary>
+<br>
+
+- **No Vignette**: no dark corners when you drive fast or aim. Story and mission effects stay as they are.
+
+</details>
+
+<details open>
+<summary><strong>&nbsp; Startup</strong></summary>
+<br>
+
+- **Skip intro logos**: the Rockstar logo movie is skipped, so the game goes straight to loading. Every other movie plays normally.
+
+</details>
+
+<details open>
+<summary><strong>&nbsp; Camera</strong></summary>
+<br>
+
+- **First person on foot**: press **L2+R3** for first person you can walk and play in. Press **L2+R3** again to go back to third person.
+
+</details>
+
+---
+
+## Install
+
+You need a PS5 with **[PS Patch System](https://github.com/illusionyy/ps-patch-system)** running.
+
+1. Copy `PPSA38500.xml` to `/data/user/patches/xml_prospero/`.
+2. Turn on the patches you want in PS Patch System.
+3. Start Grand Theft Auto VI.
+
+> [!IMPORTANT]
+> The patches are made for game version **01.002.001** only.
+
+---
 
 ## Credits
 
-- [PS Patch System](https://github.com/illusionyy/ps-patch-system) by illusionyy.
-- [Leonida](https://git.disroot.org/gmanka/leonida), whose documentation of the game helped (the Bink movies and first-person notes).
+- **[PS Patch System](https://github.com/illusionyy/ps-patch-system)** by illusionyy: the patch loader
+- **[Leonida](https://git.disroot.org/gmanka/leonida)**: its documentation of the game's movies and camera
+- **[ps5-payload-dev SDK](https://github.com/ps5-payload-dev/sdk)**, **[kstuff](https://github.com/EchoStretch/kstuff)**, **[etaHEN](https://github.com/etaHEN/etaHEN)** and the PS5 scene
