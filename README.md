@@ -26,7 +26,7 @@ VI-Patch is a set of patches for Grand Theft Auto VI, made for [PS Patch System]
 
 - **Weather fix**: on version 01.002.001 the weather gets stuck on sunny days (a game bug). This brings back rain, storms, hurricanes, fog and the four seasons.
 
-- **Mandy replaces Lucia**: Lucia becomes Mandy, with her own face, body and outfits.
+- **Mandy replaces Lucia**: Lucia becomes Mandy, with her own face, body and outfits. **WORKS ONLY IN NEW GAME**
 
 ---
 
