@@ -86,3 +86,4 @@ The payload closes when it's done. Send it again every time you start the game.
 ## Credits
 
 - **[PS Patch System](https://github.com/illusionyy/ps-patch-system)** by illusionyy: the patch loader
+- **[Eizovoid](https://github.com/Eizovoid/gta-vi-ps5-patches)**: the Close game fix
