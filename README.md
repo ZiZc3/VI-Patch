@@ -18,7 +18,7 @@ Each patch is a small change to the game's own code, applied when the game start
 
 ---
 
-## Features
+## Patches
 
 - **No Vignette**: no dark corners when you drive fast or aim. Story and mission effects stay as they are.
 
