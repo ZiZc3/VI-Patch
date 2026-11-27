@@ -24,7 +24,11 @@ Each patch is a small change to the game's own code, applied when the game start
 
 - **Skip intro logos**: the Rockstar logo movie is skipped, so the game goes straight to loading.
 
-- **First person mode**: press **L2+R3** for first person you can walk and play in. Press **L2+R3** again to go back to third person.
+- **No clothing**: hold **D-pad Down** and press **R3** to take the clothes off. Do it again to put them back on. Works on Jason and Lucia.
+
+- **Weather fix**: on version 01.002.001 the weather gets stuck on sunny days (a game bug). This brings back rain, storms, hurricanes, fog and the four seasons.
+
+- **Mandy replaces Lucia**: Lucia becomes Mandy, with her own face, body and outfits.
 
 ---
 
