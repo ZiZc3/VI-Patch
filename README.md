@@ -22,6 +22,8 @@ VI-Patch is a set of patches for Grand Theft Auto VI, made for [PS Patch System]
 
 - **No Vignette**: no dark corners when you drive fast or aim.
 
+- **No depth of field**: turns off the depth of field effect.
+
 - **Skip intro logos**: the Rockstar logo movie is skipped, so the game goes straight to loading.
 
 - **No clothing**: hold **D-pad Down** and press **R3** to take the clothes off. Do it again to put them back on. Works on Jason and Lucia.
