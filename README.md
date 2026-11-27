@@ -22,7 +22,7 @@ Each patch is a small change to the game's own code, applied when the game start
 
 - **No Vignette**: no dark corners when you drive fast or aim. Story and mission effects stay as they are.
 
-- **Skip intro logos**: the Rockstar logo movie is skipped, so the game goes straight to loading. Every other movie plays normally.
+- **Skip intro logos**: the Rockstar logo movie is skipped, so the game goes straight to loading.
 
 - **First person mode**: press **L2+R3** for first person you can walk and play in. Press **L2+R3** again to go back to third person.
 
