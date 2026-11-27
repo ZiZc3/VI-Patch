@@ -55,6 +55,7 @@ You need a PS5 with **[PS Patch System](https://github.com/illusionyy/ps-patch-s
 
 The payload closes when it's done. Send it again every time you start the game.
 
+> [!TIP]
 > **Choose your patches** in `/data/vi-patch/vipatch.txt` (made on the first run). Set a patch to `1` for on or `0` for off, then send the payload again before you start the game.
 >
 > ```ini
