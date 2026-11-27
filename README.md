@@ -21,19 +21,19 @@ VI-Patch is a set of patches for Grand Theft Auto VI. Use them with [PS Patch Sy
 
 - **60 FPS + 1080p**: the same, but renders at 1080p instead of 1440p. Use this or 60 FPS, not both.
 
+- **Weather fix**: on version 01.002.001 the weather gets stuck on sunny days (a game bug). This brings back rain, storms, hurricanes, fog and the four seasons.
+
 - **1080p** only: render the game at 1080p without 60 fps patch works on VI-Patch Payload "1080p=1".
 
 - **First person**: press **R3** + **D-pad Right** to switch between first and third person.
+
+- **Skip intro logos**: the Rockstar logo movie is skipped, so the game goes straight to loading.
 
 - **No Vignette**: no dark corners when you drive fast or aim.
 
 - **No depth of field**: turns off the depth of field effect.
 
-- **Skip intro logos**: the Rockstar logo movie is skipped, so the game goes straight to loading.
-
 - **No clothing**: hold **D-pad Down** and press **R3** to take the clothes off. Do it again to put them back on. Works on Jason and Lucia.
-
-- **Weather fix**: on version 01.002.001 the weather gets stuck on sunny days (a game bug). This brings back rain, storms, hurricanes, fog and the four seasons.
 
 - **Mandy replaces Lucia**: Lucia becomes Mandy, with her own face, body and outfits. **WORKS ONLY IN NEW GAME**
 
