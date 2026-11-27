@@ -21,6 +21,8 @@ VI-Patch is a set of patches for Grand Theft Auto VI. Use them with [PS Patch Sy
 
 - **60 FPS + 1080p**: the same, but renders at 1080p instead of 1440p. Use this or 60 FPS, not both.
 
+- **1080p** only: render the game at 1080p without 60 fps patch works on VI-Patch Payload "1080p=1".
+
 - **First person**: press **R3** + **D-pad Right** to switch between first and third person.
 
 - **No Vignette**: no dark corners when you drive fast or aim.
