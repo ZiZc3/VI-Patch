@@ -45,12 +45,12 @@ You need a PS5 with **[PS Patch System](https://github.com/illusionyy/ps-patch-s
 
 1. Copy `PPSA38500.xml` to `/data/user/patches/xml_prospero/`.
 2. Turn on the patches you want in PS Patch System.
-3. Start Grand Theft Auto VI.
+3. Start the game.
 
 ## Run Payload
 
 1. Send `vi-patch.elf` with your payload loader **before** you start the game.
-2. Start Grand Theft Auto VI.
+2. Start the game.
 3. 60 FPS and Weather fix on by default.
 
 The payload closes when it's done. Send it again every time you start the game.
