@@ -22,29 +22,6 @@ Game patches for **Grand Theft Auto VI** on a jailbroken **PS5**, made for [PS P
 2. Turn the patches on in PS Patch System.
 3. Start the game.
 
-## Patch XML
-
-```xml
-<Metadata Title="Grand Theft Auto VI" Name="No Vignette" Note="Removes the black vignette when driving fast and when aiming." Author="ZiZc3" PatchVer="1.0" AppVer="01.002.001" AppElf="eboot.bin">
-  <PatchList>
-    <Line Type="bytes" Address="0x00e724cd" Value="e93101000090" />
-    <Line Type="bytes" Address="0x00e722af" Value="e9a400000090" />
-  </PatchList>
-</Metadata>
-<Metadata Title="Grand Theft Auto VI" Name="Skip intro logos" Note="Skips the Rockstar intro logo movie." Author="ZiZc3" PatchVer="2.0" AppVer="01.002.001" AppElf="eboot.bin">
-  <PatchList>
-    <Line Type="bytes" Address="0x04877f43" Value="c7470801000000eb0f" />
-    <Line Type="bytes" Address="0x04877f50" Value="817f04a45f0e057502ebe8e940e8ffff" />
-  </PatchList>
-</Metadata>
-<Metadata Title="Grand Theft Auto VI" Name="First person you can walk in (L2+R3)" Note="L2+R3 switches walkable first person on and off." Author="ZiZc3" PatchVer="1.0" AppVer="01.002.001" AppElf="eboot.bin">
-  <PatchList>
-    <Line Type="bytes" Address="0x04fbdb9e" Value="83a39800000000838ba8000000ff6690" />
-    <Line Type="bytes" Address="0x04fbdc0b" Value="c783a80000000200000090" />
-  </PatchList>
-</Metadata>
-```
-
 ## How they work
 
 - **No Vignette:** fast driving and aiming use their own camera exposure profiles (`SPOTMETER_fast` and `SPOTMETER_aiming`), and those add a black vignette. The patch skips those two profiles, so the normal camera exposure is used.
