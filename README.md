@@ -23,19 +23,23 @@ VI-Patch is a set of patches for Grand Theft Auto VI. Use them with [PS Patch Sy
 
 - **Weather fix**: on version 01.002.001 the weather gets stuck on sunny days (a game bug). This brings back rain, storms, hurricanes, fog and the four seasons.
 
+- **Close game fix**: fixes the hang and the `CE-108255-1` error when you close the game. Made by [Eizovoid](https://github.com/Eizovoid/gta-vi-ps5-patches).
+
 - **1080p** only: render the game at 1080p without 60 fps patch works on VI-Patch Payload "1080p=1".
 
 - **First person**: press **R3** + **D-pad Right** to switch between first and third person.
 
 - **Skip intro logos**: the Rockstar logo movie is skipped, so the game goes straight to loading.
 
+- **Mandy replaces Lucia**: Lucia becomes Mandy, with her own face, body and outfits. **WORKS ONLY IN NEW GAME**
+
+- **No clothing**: hold **D-pad Down** and press **R3** to take the clothes off. Do it again to put them back on. Works on Jason and Lucia.
+
 - **No Vignette**: no dark corners when you drive fast or aim.
 
 - **No depth of field**: turns off the depth of field effect.
 
-- **No clothing**: hold **D-pad Down** and press **R3** to take the clothes off. Do it again to put them back on. Works on Jason and Lucia.
-
-- **Mandy replaces Lucia**: Lucia becomes Mandy, with her own face, body and outfits. **WORKS ONLY IN NEW GAME**
+- **No lens flare**: removes lens flares from the sun and lights.
 
 ---
 
@@ -66,10 +70,12 @@ The payload closes when it's done. Send it again every time you start the game.
 > First person=0
 > No Vignette=0
 > No depth of field=0
+> No lens flare=0
 > Skip intro logos=0
 > Weather fix=1
 > No clothing=0
 > Mandy replaces Lucia=0
+> Close game fix=0
 > ```
 
 > [!IMPORTANT]
