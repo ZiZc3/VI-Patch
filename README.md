@@ -1,2 +1,1 @@
-# PS5VI
-GTA VI patches for PS5
+# GTA VI patches
