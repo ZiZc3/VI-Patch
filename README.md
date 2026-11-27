@@ -6,7 +6,7 @@
 
 <p align="center">
   <code>PPSA38500</code> &nbsp;&middot;&nbsp;
-  <code>v01.002.001</code> &nbsp;&middot;&nbsp;
+  <code>v01.002.001</code>
 </p>
 
 ---
