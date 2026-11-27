@@ -20,7 +20,7 @@ Each patch is a small change to the game's own code, applied when the game start
 
 ## Patches
 
-- **No Vignette**: no dark corners when you drive fast or aim. Story and mission effects stay as they are.
+- **No Vignette**: no dark corners when you drive fast or aim.
 
 - **Skip intro logos**: the Rockstar logo movie is skipped, so the game goes straight to loading.
 
