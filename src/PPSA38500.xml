@@ -15,15 +15,10 @@
       <Line Type="bytes" Address="0x04877f50" Value="817f04a45f0e057502ebe8e940e8ffff" />
     </PatchList>
   </Metadata>
-  <Metadata Title="Grand Theft Auto VI" Name="Weather fix" Note="Fixes the weather getting stuck on sunny days (a bug in version 01.002.001). Rain, storms, fog and the seasons come back." Author="ZiZc3" PatchVer="1.0" AppVer="01.002.001" AppElf="eboot.bin">
+  <Metadata Title="Grand Theft Auto VI" Name="Weather fix" Note="Fixes the weather getting stuck on sunny days (a bug in version 01.002.001: the game never leaves its winter weather cycle). Keeps Rockstar's own weather cycles and picks the season from the in-game month (Dec-Feb winter, Mar-May spring, Jun-Aug summer, Sep-Nov autumn)." Author="idarius" PatchVer="2.0" AppVer="01.002.001" AppElf="eboot.bin">
     <PatchList>
-      <Line Type="bytes" Address="0x018e7421" Value="6bc043660f1f440000" />
-      <Line Type="bytes" Address="0x018e742c" Value="41b9b5000000" />
-      <Line Type="bytes" Address="0x018e7435" Value="0f1f4000" />
-      <Line Type="bytes" Address="0x018e7439" Value="0f1f440000" />
-      <Line Type="bytes" Address="0x018e7445" Value="89d06690" />
-      <Line Type="bytes" Address="0x018e744d" Value="8d4272" />
-      <Line Type="bytes" Address="0x018e749f" Value="89d16690" />
+      <Line Type="bytes" Address="0x09369400" Value="488b15c1dc8204418b4e0883f90b772affc183f90c720231c969c9ab000000c1e909440fb70596dc82044439c1730b48c1ea2048c1e2204809ca498917e9cedf57f8" />
+      <Line Type="bytes" Address="0x018e7406" Value="e9f51fa8070f1f440000" />
     </PatchList>
   </Metadata>
   <Metadata Title="Grand Theft Auto VI" Name="No clothing" Note="Hold D-pad Down + press R3: clothes off / back on." Author="ZiZc3" PatchVer="1.0" AppVer="01.002.001" AppElf="eboot.bin">

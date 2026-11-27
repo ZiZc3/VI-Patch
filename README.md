@@ -26,7 +26,7 @@ VI-Patch is a set of patches for Grand Theft Auto VI, made for [PS Patch System]
 
 - **No clothing**: hold **D-pad Down** and press **R3** to take the clothes off. Do it again to put them back on. Works on Jason and Lucia.
 
-- **Weather fix**: on version 01.002.001 the weather gets stuck on sunny days (a game bug). This brings back rain, storms, hurricanes, fog and the four seasons.
+- **Weather fix**: on version 01.002.001 the game never leaves its winter weather cycle, so it's sunny almost all the time (a game bug). This picks the season from the in-game month and keeps Rockstar's own weather cycles, so rain, storms, fog and hurricanes come back with their intended frequencies and seasons.
 
 - **Mandy replaces Lucia**: Lucia becomes Mandy, with her own face, body and outfits. **WORKS ONLY IN NEW GAME**
 
