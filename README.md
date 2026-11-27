@@ -20,6 +20,8 @@ VI-Patch is a set of patches for Grand Theft Auto VI, made for [PS Patch System]
 
 - **60 FPS**: removes the 30 fps cap. Needs 120 Hz forced on in PS Patch System settings.
 
+- **60 FPS + 1080p**: the same, but renders at 1080p instead of 1440p. Use this or 60 FPS, not both.
+
 - **First person**: press **R3** + **D-pad Right** to switch between first and third person.
 
 - **No Vignette**: no dark corners when you drive fast or aim.
