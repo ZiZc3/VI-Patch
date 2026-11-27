@@ -19,13 +19,11 @@ VI-Patch is a set of patches for Grand Theft Auto VI. Use them with [PS Patch Sy
 
 - **60 FPS**: removes the 30 fps cap. Needs 120 Hz forced on in PS Patch System settings.
 
-- **60 FPS + 1080p**: the same, but renders at 1080p instead of 1440p. Use this or 60 FPS, not both.
+- **1080p**: renders the game at 1080p instead of 1440p. Works on its own (30 FPS) or together with 60 FPS.
 
 - **Weather fix**: on version 01.002.001 the weather gets stuck on sunny days (a game bug). This brings back rain, storms, hurricanes, fog and the four seasons.
 
 - **Close game fix**: fixes the hang and the `CE-108255-1` error when you close the game. Made by [Eizovoid](https://github.com/Eizovoid/gta-vi-ps5-patches).
-
-- **1080p** only: render the game at 1080p without 60 fps patch works on VI-Patch Payload "1080p=1".
 
 - **First person**: press **R3** + **D-pad Right** to switch between first and third person.
 
