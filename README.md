@@ -25,6 +25,8 @@ VI-Patch is a set of patches for Grand Theft Auto VI. Use them with [PS Patch Sy
 
 - **Weather fix**: on version 01.002.001 the weather gets stuck on sunny days (a game bug). This brings back rain, storms, hurricanes, fog and the four seasons.
 
+- **Uncensored**: Australia/New Zealand version Restores the removed items and their stamina boost.
+
 - **Close game fix**: fixes the hang and the `CE-108255-1` error when you close the game. Made by [Eizovoid](https://github.com/Eizovoid/gta-vi-ps5-patches).
 
 - **First person**: press **R3** + **D-pad Right** to switch between first and third person.
@@ -77,6 +79,7 @@ The payload closes when it's done. Send it again every time you start the game.
 > Mandy replaces Lucia=0
 > Close game fix=0
 > 40 FPS=0 (Needs 120 Hz forced on in PS Patch System settings, for the payload same as XML)
+> Uncensored=0
 > ```
 
 > [!IMPORTANT]
