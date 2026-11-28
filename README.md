@@ -19,6 +19,8 @@ VI-Patch is a set of patches for Grand Theft Auto VI. Use them with [PS Patch Sy
 
 - **60 FPS**: removes the 30 fps cap. Needs 120 Hz forced on in PS Patch System settings.
 
+- **40 FPS**: locks the game at a steady 40 FPS. Needs 120 Hz output (forced on in PS Patch System settings).
+
 - **1080p**: renders the game at 1080p instead of 1440p. Works on its own (30 FPS) or together with 60 FPS.
 
 - **Weather fix**: on version 01.002.001 the weather gets stuck on sunny days (a game bug). This brings back rain, storms, hurricanes, fog and the four seasons.
@@ -87,5 +89,5 @@ The payload closes when it's done. Send it again every time you start the game.
 - **[PS Patch System](https://github.com/illusionyy/ps-patch-system)** by illusionyy: the patch loader
 - **[Eizovoid](https://github.com/Eizovoid/gta-vi-ps5-patches)**: the Close game fix
 - **[idarius](https://github.com/idarius)**: the season Weather fix
-- **Criminal**: the 60 FPS patch and the frame-time fix
-- **[HSgod](https://github.com/HSgod/ps5-fpsunlocker-gta6)**: research on the 30 FPS cap and the render resolution
+- **Criminal**: the 60 FPS patch and the frame-time fix for 40 FPS
+- **[HSgod](https://github.com/HSgod/ps5-fpsunlocker-gta6)**: research on the 30 FPS cap and the render resolution also the frame-rate setters
