@@ -88,6 +88,6 @@ The payload closes when it's done. Send it again every time you start the game.
 
 - **[PS Patch System](https://github.com/illusionyy/ps-patch-system)** by illusionyy: the patch loader
 - **[Eizovoid](https://github.com/Eizovoid/gta-vi-ps5-patches)**: the Close game fix
-- **[idarius](https://github.com/idarius)**: the season Weather fix
+- **[idarius](https://github.com/idarius)** & **[TaPiOn-](https://github.com/TaPiOn-)**: the season Weather fix
 - **Criminal**: the 60 FPS patch and the frame-time fix for 40 FPS
 - **[HSgod](https://github.com/HSgod/ps5-fpsunlocker-gta6)**: research on the 30 FPS cap and the render resolution also the frame-rate setters
