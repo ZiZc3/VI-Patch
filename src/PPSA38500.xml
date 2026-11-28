@@ -55,10 +55,10 @@
       <Line Type="bytes" Address="0x069743b2" Value="01" />
     </PatchList>
   </Metadata>
-  <Metadata Title="Grand Theft Auto VI" Name="Weather fix" Note="Fixes the weather getting stuck on sunny days (a bug in version 01.002.001: the game never leaves its winter weather list). Uses Rockstar's own season lists, picked from the in-game month (Dec-Feb winter, Mar-May spring, Jun-Aug summer, Sep-Nov autumn). Weather code by idarius, in-game month fix by ZiZc3." Author="idarius, ZiZc3" PatchVer="2.0" AppVer="01.002.001" AppElf="eboot.bin">
+  <Metadata Title="Grand Theft Auto VI" Name="Weather fix" Note="Fixes the weather getting stuck in winter (a bug in version 01.002.001). The season follows the story chapter the way Rockstar designed it (chapter 1 winter, chapters 2-3 spring, chapter 4 summer, chapter 5 autumn), using the game's own season setter. The chapter season is applied only when the chapter changes, so seasons set by missions or scripts are left alone (also in chapter 5). Chapter findings by TaPiOn-." Author="ZiZc3, TaPiOn-, idarius" PatchVer="3.2" AppVer="01.002.001" AppElf="eboot.bin">
     <PatchList>
-      <Line Type="bytes" Address="0x09369400" Value="488b15c1dc82048b0dcb32d80483f90b772affc183f90c720231c969c9ab000000c1e909440fb70594dc82044439c1730b48c1ea2048c1e2204809ca498917e9ccdf57f8" />
-      <Line Type="bytes" Address="0x018e7406" Value="e9f51fa8070f1f440000" />
+      <Line Type="bytes" Address="0x0936a400" Value="803d49c98204000f851b010000833d54c98204ff0f850e010000833d2bc98204000f8d010100008b0d8ba23e0385c90f84f30000004c8b0584a23e034d85c00f84e3000000448d51ffbf295b1798be09f4516cba0c4ef3b041b905000000e8d10000007572bf5c3ab047be55d9f691baeaee02e441b904000000e8b50000007556bf7e16c135bec9db4f6aba8a6d9d6f41b903000000e899000000753abfebf2f763bec9db4f6abac6fb1c0141b902000000e87d000000751ebfbb2d6101be2a28ac3ebae3174cd741b901000000e8610000007502eb5166833de1cb820400744748833dcfcb820400743d443a0d0eda8505743444880d05da850553415489f34189d4488d3d06ca7405e8416b09f789df4489e6e8b70745fc488d3df0c97405e8db6a09f7415c5b833dd17e060200e9f8195bf84189fb4521d3438d045b418b048085c0740c39f8740b41ffc34521d3ebe831c0c385c0c3" />
+      <Line Type="bytes" Address="0x0191bf25" Value="e9d6e4a407cccc" />
     </PatchList>
   </Metadata>
   <Metadata Title="Grand Theft Auto VI" Name="First person" Note="Press R3 + D-pad Right to switch between first and third person on foot." Author="ZiZc3" PatchVer="1.0" AppVer="01.002.001" AppElf="eboot.bin">
