@@ -76,7 +76,7 @@ The payload closes when it's done. Send it again every time you start the game.
 > No clothing=0
 > Mandy replaces Lucia=0
 > Close game fix=0
-> 40 FPS=0 (Needs 120 Hz forced on in PS Patch System settings, for the payload same as XML.)
+> 40 FPS=0 (Needs 120 Hz forced on in PS Patch System settings, for the payload same as XML)
 > ```
 
 > [!IMPORTANT]
