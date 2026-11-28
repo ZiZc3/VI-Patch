@@ -74,6 +74,7 @@ The payload closes when it's done. Send it again every time you start the game.
 > No clothing=0
 > Mandy replaces Lucia=0
 > Close game fix=0
+> 40 FPS=0 (Needs 120 Hz forced on in PS Patch System settings, for the payload same as XML.)
 > ```
 
 > [!IMPORTANT]
@@ -85,5 +86,6 @@ The payload closes when it's done. Send it again every time you start the game.
 
 - **[PS Patch System](https://github.com/illusionyy/ps-patch-system)** by illusionyy: the patch loader
 - **[Eizovoid](https://github.com/Eizovoid/gta-vi-ps5-patches)**: the Close game fix
+- **[idarius](https://github.com/idarius)**: the season Weather fix
 - **Criminal**: the 60 FPS patch and the frame-time fix
 - **[HSgod](https://github.com/HSgod/ps5-fpsunlocker-gta6)**: research on the 30 FPS cap and the render resolution
