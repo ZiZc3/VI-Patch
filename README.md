@@ -25,7 +25,7 @@ VI-Patch is a set of patches for Grand Theft Auto VI. Use them with [PS Patch Sy
 
 - **Weather fix**: on version 01.002.001 the weather gets stuck on sunny days (a game bug). This brings back rain, storms, hurricanes, fog and the four seasons.
 
-- **Uncensored**: Australia/New Zealand version Restores the removed items and their stamina boost.
+- **Uncensored Experimental Patch**: Australia/New Zealand version Restores the removed items and their stamina boost.
 
 - **Close game fix**: fixes the hang and the `CE-108255-1` error when you close the game. Made by [Eizovoid](https://github.com/Eizovoid/gta-vi-ps5-patches).
 
