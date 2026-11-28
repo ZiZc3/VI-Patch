@@ -31,13 +31,9 @@
 #include <sys/user.h>
 #include <ps5/kernel.h>
 #include <ps5/klog.h>
-#ifdef PRIVATE
-#include "patches_private.h"
-#else
 #include "patches.h"
-#endif
 
-#define VERSION   "1.2"
+#define VERSION   "1.3"
 #define DIR_      "/data/vi-patch"
 #define TITLE     "PPSA38500"
 #define LOCK_PORT 47991
@@ -148,6 +144,8 @@ static void load_config(int n) {
             fprintf(f, "# VI-Patch Payload " VERSION ": 1 = on, 0 = off. Edit over FTP, then send the payload again\n"
                        "# before you start the game.\n"
                        "# 1080p = render at 1080p instead of 1440p (use with 60 FPS for a steadier frame rate).\n"
+                       "# 40 FPS needs 120 Hz output (PS Patch System running with 120 Hz forced on); on 60 Hz it gives 20.\n"
+                       "# Use 60 FPS OR 40 FPS, not both.\n"
                        "# First person: R3 + D-pad Right. No clothing: R3 + D-pad Down.\n\n");
             for (int i = 0; i < n; i++) fprintf(f, "%s=%d\n", GROUPS[i].name, GROUPS[i].def);
             fclose(f);
@@ -259,9 +257,10 @@ int main(void) {
         if (st[i] != S_ORIG) { lg("%s: SKIPPED (bytes are not 01.002.001 originals, state %d)", g->name, st[i]); skipped++; continue; }
         if (apply_group(base, g)) { skipped++; continue; }
         lg("%s: applied", g->name); ok++;
-        if (!strcmp(g->name, "60 FPS")) {        /* game already running: refresh the frame time it computed at 30 */
-            uint32_t us = 1000000 / FPS;
+        if (!strcmp(g->name, "60 FPS") || !strcmp(g->name, "40 FPS")) {   /* game already running: refresh the frame time it computed at 30 */
+            uint32_t us = 1000000 / (g->name[0] == '4' ? 40 : FPS);
             phys_rw(base + 0xe3be220, &us, 4, 1);
+            if (g->name[0] == '4') { uint8_t lock = 3; phys_rw(base + 0xe7bbb08, &lock, 1, 1); }   /* 3 vblanks at 120 Hz = 40 */
         }
     }
     if (skipped) notify("%d patches applied, %d skipped (see /data/vi-patch/payload.log)", ok + already, skipped);
